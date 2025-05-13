@@ -8,6 +8,6 @@ const init = () => {
     const errorMessage = getElement('#errorMessage');
     // Load Belgium by default
     handleSearch('Belgium', countryInfo, errorMessage);
-}
+};
 
 window.addEventListener('load', init);

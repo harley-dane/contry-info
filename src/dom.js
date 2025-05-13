@@ -27,7 +27,7 @@ export const displayCountryInfo = (container, country) => {
     ];
 
     // Use forEach to create and append DOM elements
-    countryInfo.forEach(info => {
+    countryInfo.forEach((info) => {
         if (info.isImage) {
             const img = document.createElement('img');
             img.src = info.src;

@@ -56,7 +56,9 @@ h1 {
     background: #00b4d8;
     color: #ffffff;
     cursor: pointer;
-    transition: background 0.3s, transform 0.2s;
+    transition:
+        background 0.3s,
+        transform 0.2s;
 }
 
 #searchBtn:hover {

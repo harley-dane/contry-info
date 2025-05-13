@@ -1,21 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Country Information App</title>
-    <link rel="stylesheet" href="./styles/index.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Country Information</h1>
-        <div class="search-box">
-            <input type="text" id="countryInput" placeholder="Enter country name">
-            <button id="searchBtn" type="button">Search</button>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Country Information App</title>
+        <link rel="stylesheet" href="./styles/index.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Countries Information</h1>
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="countryInput"
+                    placeholder="Enter country name"
+                />
+                <button id="searchBtn" type="button">Search</button>
+            </div>
+            <div id="countryInfo" class="country-info"></div>
+            <div id="errorMessage" class="error-message"></div>
         </div>
-        <div id="countryInfo" class="country-info"></div>
-        <div id="errorMessage" class="error-message"></div>
-    </div>
-    <script type="module" src="./src/init.js"></script>
-</body>
+        <script type="module" src="./src/init.js"></script>
+    </body>
 </html>
